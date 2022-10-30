@@ -15,5 +15,7 @@ for x in città:
   if x == 'Roma':
     continue                                                #il comando continue ferma il ciclo quando la variabile assume il valore dato, e riprende dopo
   print(x)
-for x in range(35):
+for x in range(0, 35 , 5):                                  #il comando range stampa tutti i numeri da 0 a quello indicato-1, posso aggiungere comandi break, continue,... , aggiungendo un numero dopo quello dato posso indicare il valore di incremento
     print(x)
+else: 
+    print('finito')                                         #else serve per fare realizzare un comando quando il loop finisce
